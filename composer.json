@@ -1,0 +1,24 @@
+{
+    "name": "root/mascotas",
+    "authors": [
+        {
+            "name": "Matias Gravante",
+            "email": "mgravante@navent.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.1",
+        "illuminate/database": "^7.17",
+        "illuminate/events": "^7.17"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\": "src",
+            "Config\\": "config"
+        }
+    }
+}
