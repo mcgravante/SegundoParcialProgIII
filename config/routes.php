@@ -6,16 +6,12 @@ use Slim\Routing\RouteCollectorProxy;
 //Controllers
 use App\Controllers\UsersController;
 use App\Controllers\MateriasController;
-use App\Controllers\TurnosController;
 //middles
-use App\Middleware\BeforeMiddleware;
-use App\Middleware\UsuarioValidateMiddleware;
+
+
 use App\Middleware\RegistroMiddleware;
 use App\Middleware\LoginMiddleware;
 use App\Middleware\RegistroMateriasMiddleware;
-use App\Middleware\RegistroTurnoMiddleware;
-use App\Middleware\AfterMiddleware;
-use App\Middleware\TurnosVeterinariosMiddleware;
 use App\Middleware\GetMateriasByIdMiddleware;
 use App\Middleware\AsignoProfesorMiddleware;
 
